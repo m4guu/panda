@@ -1,0 +1,112 @@
+/* FONTS */
+@font-face {
+  font-family: local-mono;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/assets/fonts/mono/mono-space.otf) format(opentype);
+}
+@font-face {
+  font-family: poppins;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/assets/fonts/poppins/Poppins-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: poppins;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/assets/fonts/poppins/Poppins-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: poppins;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/assets/fonts/poppins/Poppins-SemiBold.ttf) format(typetrue);
+}
+
+:root {
+  /* font-family */
+  --vp-font-family-mono: local-mono, source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+  --vp-font-family-base: poppins;
+  /* font-weight */
+  --vp-font-weight-light: 300;
+  --vp-font-weight-regular: 400;
+  --vp-font-weight-medium: 500;
+  --vp-font-weight-semibold: 600;
+}
+/* FONTS */
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 8.1em;
+  line-height: 14.4rem;
+  font-weight: var(--vp-font-weight-regular);
+  font-family: var(--vp-font-family-base);
+}
+h1.medium {
+  font-weight: var(--vp-font-weight-medium);
+}
+h1.semibold {
+  font-weight: var(--vp-font-weight-semibold);
+}
+
+h2 {
+  font-size: 6.4em;
+  line-height: 9.6rem;
+  font-weight: var(--vp-font-weight-regular);
+  font-family: var(--vp-font-family-base);
+}
+h2.medium {
+  font-weight: var(--vp-font-weight-medium);
+}
+h2.semibold {
+  font-weight: var(--vp-font-weight-semibold);
+}
+
+h3 {
+  font-size: 3.6em;
+  line-height: 4.8rem;
+  font-weight: var(--vp-font-weight-regular);
+  font-family: var(--vp-font-family-base);
+}
+h3.medium {
+  font-weight: var(--vp-font-weight-medium);
+}
+h3.semibold {
+  font-weight: var(--vp-font-weight-semibold);
+}
+
+h4 {
+  font-size: 2.4em;
+  line-height: 3.4rem;
+  font-weight: var(--vp-font-weight-regular);
+  font-family: var(--vp-font-family-base);
+}
+h4.medium {
+  font-weight: var(--vp-font-weight-medium);
+}
+h4.semibold {
+  font-weight: var(--vp-font-weight-semibold);
+}
+
+p {
+  font-size: 2.4em;
+  line-height: 3.4rem;
+  font-weight: var(--vp-font-weight-regular);
+  font-family: var(--vp-font-family-base);
+}
+p.medium {
+  font-weight: var(--vp-font-weight-medium);
+}
+p.semibold {
+  font-weight: var(--vp-font-weight-semibold);
+}
+
+span {
+  font-size: 1.2em;
+  line-height: 20px;
+  font-family: var(--vp-font-family-mono);
+  font-weight: var(--vp-font-weight-light);
+}
+/* TYPOGRAPHY */
