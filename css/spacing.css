@@ -1,0 +1,8 @@
+:root {
+  --vp-spacing-xs: 4px;
+  --vp-spacing-sm: 8px;
+  --vp-spacing-md: 16px;
+  --vp-spacing-lg: 24px;
+  --vp-spacing-xl: 48px;
+  --vp-spacing-xxl: 96px;
+}

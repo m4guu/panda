@@ -1,0 +1,6 @@
+@import "/css/spacing.css";
+
+:root {
+  /* specify different tokens */
+  --vp-border-radius: var(--vp-spacing-sm);
+}
