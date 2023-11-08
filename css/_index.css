@@ -1,0 +1,10 @@
+@import "/css/typography.css";
+@import "/css/palette/_theme.css";
+
+html {
+  font-size: 62.5%; /* font-size reset  --> 1[em] = 10[px]*/
+}
+body {
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}

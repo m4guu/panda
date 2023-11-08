@@ -1,0 +1,15 @@
+@import "./primitives.css";
+
+:root {
+  /* background */
+  --vp-c-bg-light: var(--vp-c-white);
+  --vp-c-bg-dark: var(--vp-c-grey-main);
+
+  /* text */
+  --vp-c-text-light-1: var(--vp-c-grey-tint-7);
+  --vp-c-text-light-2: var(--vp-c-grey-tint-6);
+  --vp-c-text-light-3: var(--vp-c-grey-tint-5);
+  --vp-c-text-dark-1: var(--vp-c-grey-tint-4);
+  --vp-c-text-dark-2: var(--vp-c-grey-tint-2);
+  --vp-c-text-dark-3: var(--vp-c-grey-tint-1);
+}

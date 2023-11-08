@@ -1,0 +1,40 @@
+@import "/css/palette/tokens.css";
+@import "/css/palette/primitives.css";
+
+/* COMMON */
+:root {
+  --vp-c-brand: var(--vp-c-green-main);
+}
+/* COMMON */
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* background */
+    --vp-c-bg: var(--vp-c-bg-dark);
+    /* text */
+    --vp-c-text-1: var(--vp-c-text-dark-1);
+    --vp-c-text-2: var(--vp-c-text-dark-2);
+    --vp-c-text-3: var(--vp-c-text-dark-3);
+  }
+}
+body.dark {
+  /* background */
+  --vp-c-bg: var(--vp-c-bg-dark);
+  /* text */
+  --vp-c-text-1: var(--vp-c-text-dark-1);
+  --vp-c-text-2: var(--vp-c-text-dark-2);
+  --vp-c-text-3: var(--vp-c-text-dark-3);
+}
+/* DARK MODE */
+
+/* LIGHT MODE */
+body.light {
+  /* background */
+  --vp-c-bg: var(--vp-c-bg-light);
+  /* text */
+  --vp-c-text-1: var(--vp-c-text-light-1);
+  --vp-c-text-2: var(--vp-c-text-light-2);
+  --vp-c-text-3: var(--vp-c-text-light-3);
+}
+/* LIGHT MODE */
