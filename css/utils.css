@@ -1,0 +1,6 @@
+/* Z-INDEXES */
+:root {
+  --vp-z-index-header: 10;
+  --vp-z-index-footer: 20;
+}
+/* Z-INDEXES */
