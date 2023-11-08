@@ -1,3 +1,4 @@
+/* BREAKPOINTS */
 :root {
   --vp-breakpoint-xs: 0;
   --vp-breakpoint-sm: 600;
@@ -5,3 +6,10 @@
   --vp-breakpoint-lg: 1200;
   --vp-breakpoint-xl: 1536;
 }
+/* BREAKPOINTS */
+
+/* ASSETS */
+:root {
+  --vp-layout-max-width: 1440px;
+}
+/* ASSETS */
